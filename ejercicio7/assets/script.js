@@ -11,11 +11,11 @@ function requestValue(valueName) {
 function main() {
     let a = requestValue("a");
     let b = requestValue("b");
-    //Declaramos las variables.
+    //Declaramos las variables y pedimos sus valores.
 
     [a, b] = [b, a];
     //Indicamos que los valores van a intecambiarse.
-    alert(`Los valores han sido intercambiados. Ahora, a = ${a} y b = ${b}`);
+    alert(`Los valores fueron intercambiados, ahora a = ${a} y b = ${b}`);
     //alerta que nos muestra el cambio de valores.
 }
 
